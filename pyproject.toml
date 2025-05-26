@@ -1,0 +1,18 @@
+[project]
+name = "routecli"
+version = "0.1.0"
+description = "Default template for PDM package"
+requires-python = "==3.13.*"
+
+dependencies = [
+    "python-dotenv",
+    "requests"
+]
+authors = [
+    {name = "John Mayou", email = "john@johnmayou.com"},
+]
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
