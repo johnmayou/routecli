@@ -1,6 +1,5 @@
-# route-cli
+# routecli
 
-Working example:
+A command-line tool that gives turn-by-turn directions between two addresses, using a hand-rolled A\* pathfinder over a bundled OpenStreetMap export. No routing engine required.
 
-- From: `601 SE Main Street, Minneapolis, MN 55413`
-- To: `333 S 7th St, Minneapolis, MN 55402`
+The included `map.xml` covers a bounding box around Minneapolis, MN.
